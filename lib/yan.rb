@@ -1,4 +1,5 @@
 require "yan/version"
+require 'singleton'
 
 # This is a pretty simple gem. All the code will be namespaced under Yan
 module Yan
