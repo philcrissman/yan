@@ -1,6 +1,6 @@
 # Yan
 
-TODO: Write a gem description
+`yan` is a little gem to return a quote from the seminal Chinese-Canadian cooking programme, [_Wok With Yan_](http://en.wikipedia.org/wiki/Wok_with_Yan).
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+`yan` comes with an executable which you can just run to get a quote on the commandline. Alternately, you can include the gem and get a quote with:
+
+```
+Yan::Quote.run
+```
 
 ## Contributing
 
