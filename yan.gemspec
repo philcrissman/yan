@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Yan::VERSION
   spec.authors       = ["Phil Crissman"]
   spec.email         = ["phil.crissman@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Return a Stephen Yan Wok pun}
+  spec.description   = %q{Return a pun from one of Stephen Yan's aprons from the seminal Chinese-Canadian cooking program, _Wok With Yan_}
+  spec.homepage      = "https://github.com/philcrissman/yan"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "minitest"
 end
