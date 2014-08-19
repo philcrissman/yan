@@ -48,8 +48,7 @@ module Yan
 
     # Actually returns the pun
     def run
-      # Array#shuffle randomly shuffles an Array's elements in place.
-      Yan::Quote::PUNS.shuffle.first
+      Yan::Quote::PUNS.sample
     end
   end
 end
