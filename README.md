@@ -2,6 +2,8 @@
 
 `yan` is a little gem to return a quote from the seminal Chinese-Canadian cooking programme, [_Wok With Yan_](http://en.wikipedia.org/wiki/Wok_with_Yan).
 
+[![Build Status](https://travis-ci.org/philcrissman/yan.svg?branch=master)](https://travis-ci.org/philcrissman/yan)
+
 ## Installation
 
 Add this line to your application's Gemfile:
